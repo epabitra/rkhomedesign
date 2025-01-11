@@ -17,10 +17,12 @@
 /** Whatsapp Icon **/
 .bi-whatsapp {
     position: fixed;
-    top: 85%;
-    left: 10px;
+    display: none;
+    left: 45px;
+    bottom: 45px;
+    z-index: 99;
+    background-color: #00b98f;
 }
-
 
 /*** Spinner ***/
 #spinner {
@@ -202,6 +204,16 @@
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
     background: var(--dark);
+}
+
+@media (max-width: 668px) {
+    .bi-whatsapp {
+        left: 15px;
+    }
+
+    .back-to-top {
+        right: 25px;
+    }
 }
 
 @media (max-width: 768px) {

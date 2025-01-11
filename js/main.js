@@ -52,6 +52,16 @@
     }
   });
 
+  $(".bi-whatsapp").fadeOut("slow");
+  // Back to top left button
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 300) {
+      $(".bi-whatsapp").fadeIn("slow");
+    } else {
+      $(".bi-whatsapp").fadeOut("slow");
+    }
+  });
+
   // Back to top button
   $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
