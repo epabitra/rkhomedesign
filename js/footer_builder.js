@@ -38,8 +38,8 @@ const footerData = {
     },
     copyright: {
       siteName: "RK Design",
-      designerName: "HTML Codex",
-      designerLink: "https://htmlcodex.com",
+      designerName: "E Pabitra",
+      designerLink: "https://epabitra.com",
       menuLinks: [
         { name: "Home", href: "index.html" },
         // { name: "Cookies", href: "" },
