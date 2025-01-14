@@ -1,35 +1,5 @@
 (function ($) {
   "use strict";
-
-  const mobileNo = "+91 7328088547";
-  const emailAddress = "info@rkdesign.com";
-  const address = "Bustand Digapahandi";
-
-  const nameLogo = "RK Design";
-  var entities = document.querySelectorAll(".nameLogo");
-  entities.forEach((div) => {
-    div.innerHTML = nameLogo;
-  });
-
-  const picTitle = "Featured Image";
-  var entities = document.querySelectorAll(".picTitle");
-  entities.forEach((div) => {
-    div.innerHTML = picTitle;
-  });
-
-  const titleTitle = "";
-  var entities = document.querySelectorAll(".titleTitle");
-  entities.forEach((div) => {
-    div.innerHTML = titleTitle;
-  });
-
-  const titleBanner =
-    "<h1 class='text-white'>Expert 3D Home Design Services in Digapahandi</h1>";
-  var entities = document.querySelectorAll(".title-banner");
-  entities.forEach((div) => {
-    div.innerHTML = titleBanner;
-  });
-
   // Spinner
   var spinner = function () {
     setTimeout(function () {

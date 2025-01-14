@@ -1,9 +1,8 @@
-const brandName = "RK Design";
 // Define the links array for the navbar
 const links = [
     { name: "Home", href: "index.html", active: true },
     // { name: "About", href: "about.html" },
-    { name: "About", href: "404.html" },
+    { name: "About", href: "about.html" },
     // {
     //   name: "Property",
     //   dropdown: true,
@@ -22,7 +21,7 @@ const links = [
     //   ],
     // },
     // { name: "Contact", href: "contact.html" },
-    { name: "Contact", href: "404.html" },
+    { name: "Contact", href: "contact.html" },
   ];
   
   function buildNavbar() {  

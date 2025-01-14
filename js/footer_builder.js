@@ -1,8 +1,3 @@
-// Define the footer content data
-const mobileNo = "+91 7328088547";
-const emailAddress = "info@rkdesign.com";
-const address = "Bus Stand, Digapahandi";
-
 const footerData = {
     getInTouch: {
       title: "Get In Touch",
@@ -17,8 +12,8 @@ const footerData = {
       ],
     },
     quickLinks: [
-      { name: "About", href: "404.html" },
-      { name: "Contact", href: "404.html" },
+      { name: "About", href: "about.html" },
+      { name: "Contact", href: "contact.html" },
     //   { name: "Our Services", href: "" },
     //   { name: "Privacy Policy", href: "" },
     //   { name: "Terms & Condition", href: "" },
