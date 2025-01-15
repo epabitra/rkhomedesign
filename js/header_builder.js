@@ -32,8 +32,8 @@ const links = [
     // Brand section
     navbar.innerHTML = `
       <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
-        <div class="icon p-2 me-2">
-          <img class="img-fluid" src="img/icon-deal.png" alt="Icon" style="width: 30px; height: 30px" />
+        <div class="icon p-0 me-2 border border-2">
+          <img class="img-fluid rounded-circle" src="img/logo.jpg" alt="Icon" style="width: 60px; height: 60px" />
         </div>
         <h1 class="m-0 text-primary nameLogo">${brandName}</h1>
       </a>
