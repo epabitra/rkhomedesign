@@ -92,7 +92,7 @@ const links = [
   
     // Add button (optional)
     const addButton = document.createElement("a");
-    addButton.href = "";
+    addButton.href = "contact.html";
     addButton.className = "btn btn-primary px-3 d-none d-lg-flex";
     addButton.textContent = "Book A Appointment";
     collapseDiv.appendChild(addButton);
