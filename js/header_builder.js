@@ -2,6 +2,7 @@
 const links = [
     { name: "Home", href: "index.html", active: true },
     // { name: "About", href: "about.html" },
+    { name: "Gallary", href: "galary.html" },
     { name: "About", href: "about.html" },
     // {
     //   name: "Property",
